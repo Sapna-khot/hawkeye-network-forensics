@@ -87,7 +87,9 @@ The first packet timestamp was observed in Wireshark as:
 
 The question requires the UTC timestamp, so the displayed time and required answer format were investigated before recording the final verified answer.
 
-**Status:** Under verification
+**Status:** Solved
+
+The timestamp was converted from the displayed local time to UTC and the resulting answer was successfully verified in the CyberDefenders lab.
 
 ### Q3 – Capture duration
 

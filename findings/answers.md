@@ -25,17 +25,23 @@ The Capture File Properties window showed:
 
 ## Q2. At what time was the first packet captured (UTC)?
 
-**Status:** Pending verification
+**Answer:** `2019-04-10 20:37`
 
-### Initial observation
+### Method
 
-Wireshark Capture File Properties displayed the first packet timestamp as:
+The first packet timestamp was obtained from Wireshark Capture File Properties. The displayed timestamp was converted from the local timezone to UTC before submitting the answer in CyberDefenders.
+
+### Evidence
+
+Wireshark showed the first captured packet timestamp as:
 
 `2019-04-11 02:07:07`
 
-The CyberDefenders question specifically requests the UTC time, so the timezone and required input format need to be verified before recording the final answer.
+The corresponding UTC time was calculated and verified through the CyberDefenders lab.
 
----
+**Status:** Solved
+
+![Capture Statistics](../screenshots/01_capture_statistics.png)
 
 ## Q3. What is the duration of the capture?
 
