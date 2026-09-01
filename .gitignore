@@ -1,0 +1,23 @@
+# CyberDefenders lab artifacts
+*.pcap
+*.pcapng
+*.cap
+
+# Malware / executables
+*.exe
+*.dll
+*.bin
+
+# Extracted files
+lab/
+samples/
+malware/
+
+# Sensitive investigation data
+credentials.txt
+passwords.txt
+secrets.txt
+
+# OS files
+.DS_Store
+Thumbs.db
