@@ -1,22 +1,30 @@
-# HawkEye Investigation Timeline
+---
 
-| Sequence | Event | Evidence | Status |
-|---|---|---|---|
-| 1 | HawkEye lab scenario reviewed | CyberDefenders lab instructions | Completed |
-| 2 | Safe VMware Ubuntu environment prepared | VMware Ubuntu VM | Completed |
-| 3 | PCAP opened in Wireshark | `stealer.pcap` | Completed |
-| 4 | Capture statistics examined | Capture File Properties | Completed |
-| 5 | Protocol hierarchy examined | Wireshark Protocol Hierarchy | Completed |
-| 6 | Network conversations examined | Wireshark Conversations | Completed |
-| 7 | Initial CyberDefenders questions investigated | Lab question interface | In progress |
-| 8 | Deeper DNS/HTTP/SMTP investigation | PCAP traffic | Pending |
+## Investigation Progress Update - Day 4
 
-## Initial Findings
+| Stage | Finding | Status |
+|---|---|---|
+| Capture analysis | 4003 packets identified | ✅ |
+| Initial timestamp | First packet timestamp converted to UTC | ✅ |
+| Capture duration | 01:03:41 | ✅ |
+| Link-level analysis | Most active MAC identified | ✅ |
+| NIC identification | Hewlett-Packard | ✅ |
+| Internal hosts | 3 systems identified | ✅ |
+| Network-level host | Beijing-5cd1-PC | ✅ |
+| DNS infrastructure | 10.4.10.4 | ✅ |
+| Suspicious domain | proforma-invoices.com | ✅ |
+| Domain IP | 217.182.138.150 | ✅ |
+| IP geolocation | France | ✅ |
+| Victim OS | Windows NT 6.1 | ✅ |
+| Malware download | tkraw_Protected99.exe | ✅ |
+| Malware hash | MD5 identified | ✅ |
+| Malware hosting server | LiteSpeed | ✅ |
+| Victim public IP | 173.66.146.112 | ✅ |
+| SMTP infrastructure | Email server identified | ✅ |
+| Malware variant | Reborn V9 | ✅ |
+| Credential exfiltration | Bank of America credentials identified | ✅ |
+| Exfiltration interval | Every 10 minutes | ✅ |
 
-- The capture contains 4003 packets.
-- The capture duration is 01:03:41.
-- Multiple network protocols are present.
-- TCP represents a significant portion of the captured traffic.
-- Network conversations were reviewed as an initial step toward identifying important communicating hosts.
+**Day 4 status:** All 24 CyberDefenders questions have been solved.
 
-Further conclusions will only be added after packet-level investigation and verification.
+**Remaining documentation work:** Add the locally available Q19-Q24 screenshots and perform the final report/IOC/timeline review during Day 5.
