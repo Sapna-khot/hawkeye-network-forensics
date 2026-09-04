@@ -17,6 +17,7 @@ Opened the PCAP in Wireshark and checked **Statistics → Capture File Propertie
 
 **Evidence:**  
 The capture contains 4003 packets.
+![Q4 Ethernet Conversations](../screenshots/04_q04_ethernet_conversations.png)
 
 **Status:** ✅ Solved
 
@@ -58,7 +59,7 @@ Checked the capture duration in Wireshark Capture File Properties.
 Analyzed the Ethernet conversations in Wireshark and identified the most active MAC address based on network activity.
 
 **Evidence:**  
-`04_q04_ethernet_conversations.png`
+`![Q4 Ethernet Conversations](../screenshots/04_q04_ethernet_conversations.png)
 
 **Status:** ✅ Solved
 
@@ -100,7 +101,7 @@ Verified the headquarters location of the identified NIC manufacturer.
 Analyzed IPv4 conversations and identified the internal hosts using the organization's private /24 network.
 
 **Evidence:**  
-`05_q07_q08_ipv4_conversations.png`
+![Q7-Q8 IPv4 Conversations](../screenshots/05_q07_q08_ipv4_conversations.png)
 
 **Status:** ✅ Solved
 
@@ -116,7 +117,7 @@ Analyzed IPv4 conversations and identified the internal hosts using the organiza
 Identified the most active internal IP from IPv4 conversations and correlated it with DHCP traffic. The DHCP Inform message was examined to identify the hostname.
 
 **Evidence:**  
-`05_q07_q08_ipv4_conversations.png`
+![Q7-Q8 IPv4 Conversations](../screenshots/05_q07_q08_ipv4_conversations.png)
 
 **Status:** ✅ Solved
 
@@ -147,7 +148,7 @@ Inspected packet 204 and examined the DNS query information.
 **Evidence:**  
 DNS response evidence is available in:
 
-`07_q10_q11_dns_response.png`
+![Q10-Q11 DNS Response](../screenshots/07_q10_q11_dns_response.png)
 
 **Note:**  
 A separate DNS query screenshot for Q10 is not currently available.
@@ -166,7 +167,7 @@ A separate DNS query screenshot for Q10 is not currently available.
 Inspected the DNS response associated with the queried domain.
 
 **Evidence:**  
-`07_q10_q11_dns_response.png`
+![Q10-Q11 DNS Response](../screenshots/07_q10_q11_dns_response.png)
 
 **Status:** ✅ Solved
 
@@ -182,7 +183,7 @@ Inspected the DNS response associated with the queried domain.
 Performed IP geolocation verification for `217.182.138.150`.
 
 **Evidence:**
-- `08_q12_ip_geolocation.png`
+![Q12 IP Geolocation](../screenshots/08_q12_ip_geolocation.png)
 
 **Status:** ✅ Solved
 
@@ -198,7 +199,7 @@ Performed IP geolocation verification for `217.182.138.150`.
 Analyzed network/HTTP information and verified the operating-system identifier associated with the victim.
 
 **Evidence:**  
-`09_q13_whois_evidence.png`
+![Q13-Q14 HTTP Download](../screenshots/10_q14_http_download.png)
 
 **Status:** ✅ Solved
 
@@ -214,7 +215,7 @@ Analyzed network/HTTP information and verified the operating-system identifier a
 Inspected HTTP traffic and identified the executable downloaded by the victim.
 
 **Evidence:**  
-`10_q14_http_download.png`
+![Q14 HTTP Download](../screenshots/10_q14_http_download.png)
 
 **Note:**  
 A separate HTTP Object Export screenshot is not currently available.
@@ -233,7 +234,7 @@ A separate HTTP Object Export screenshot is not currently available.
 Calculated/verified the MD5 hash of the downloaded malicious file.
 
 **Evidence:**  
-`11_q15_md5_hash.png`
+![Q15 MD5 Hash](../screenshots/11_q15_md5_hash.png)
 
 **Status:** ✅ Solved
 
@@ -249,7 +250,7 @@ Calculated/verified the MD5 hash of the downloaded malicious file.
 Inspected the HTTP server response headers associated with the malware-hosting server.
 
 **Evidence:**  
-`12_q16_http_server.png`
+![Q16 HTTP Server](../screenshots/12_q16_http_server.png)
 
 **Status:** ✅ Solved
 
@@ -265,7 +266,7 @@ Inspected the HTTP server response headers associated with the malware-hosting s
 Correlated the internal victim system with its external/public network communication.
 
 **Evidence:**  
-`13_q17_victim_public_ip.png`
+![Q17 Victim Public IP](../screenshots/13_q17_victim_public_ip.png)
 
 **Status:** ✅ Solved
 
