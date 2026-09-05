@@ -17,7 +17,6 @@ Opened the PCAP in Wireshark and checked **Statistics → Capture File Propertie
 
 **Evidence:**  
 The capture contains 4003 packets.
-![Q4 Ethernet Conversations](../screenshots/04_q04_ethernet_conversations.png)
 
 **Status:** ✅ Solved
 
@@ -298,7 +297,7 @@ No screenshot is currently available for Q18.
 Analyzed the SMTP communication and examined the email server information.
 
 **Evidence:**  
-Screenshot available locally and will be added to the repository during the final documentation update.
+![Q19 SMTP Server Software](../screenshots/14_q19_smtp_server_software.png)
 
 **Status:** ✅ Solved
 
@@ -314,7 +313,7 @@ Screenshot available locally and will be added to the repository during the fina
 Inspected the SMTP communication and identified the recipient address.
 
 **Evidence:**  
-Screenshot available locally and will be added during the final update.
+![Q20 Email Recipient](../screenshots/15_q20_email_recipient.png)
 
 **Status:** ✅ Solved
 
@@ -330,7 +329,9 @@ Screenshot available locally and will be added during the final update.
 Analyzed the SMTP authentication data and decoded the Base64-encoded credential information.
 
 **Evidence:**  
-Screenshot available locally and will be added during the final update.
+![Q21 SMTP Password in Wireshark](../screenshots/16_q21_smtp_password_wireshark.png)
+
+![Q21 SMTP Password Decoded](../screenshots/17_q21_smtp_password_decoded.png)
 
 **Status:** ✅ Solved
 
@@ -346,7 +347,7 @@ Screenshot available locally and will be added during the final update.
 Analyzed the exfiltration-related email/network data and identified the malware variant.
 
 **Evidence:**  
-Screenshot available locally and will be added during the final update.
+![Q22-Q23 Malware and Bank Credentials](../screenshots/18_q22_q23_malware_and_bank_credentials.png)
 
 **Status:** ✅ Solved
 
@@ -362,7 +363,7 @@ Screenshot available locally and will be added during the final update.
 Inspected the exfiltrated information and identified the Bank of America username and password.
 
 **Evidence:**  
-Screenshot available locally and will be added during the final update.
+![Q22-Q23 Malware and Bank Credentials](../screenshots/18_q22_q23_malware_and_bank_credentials.png)
 
 **Status:** ✅ Solved
 
@@ -378,7 +379,7 @@ Screenshot available locally and will be added during the final update.
 Analyzed the timestamps of repeated exfiltration events and identified the recurring interval.
 
 **Evidence:**  
-Screenshot available locally and will be added during the final update.
+![Q24 Exfiltration Interval](../screenshots/19_q24_exfiltration_interval.png)
 
 **Status:** ✅ Solved
 
